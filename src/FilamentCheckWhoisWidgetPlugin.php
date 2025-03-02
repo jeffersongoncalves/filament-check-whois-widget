@@ -1,6 +1,6 @@
 <?php
 
-namespace JeffersonSimaoGoncalves\FilamentCheckWhoisWidget;
+namespace JeffersonGoncalves\FilamentCheckWhoisWidget;
 
 use Closure;
 use Filament\Contracts\Plugin;

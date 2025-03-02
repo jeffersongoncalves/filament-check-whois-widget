@@ -1,6 +1,6 @@
 <?php
 
-namespace JeffersonSimaoGoncalves\FilamentCheckWhoisWidget\Widgets;
+namespace JeffersonGoncalves\FilamentCheckWhoisWidget\Widgets;
 
 use AllowDynamicProperties;
 use AshAllenDesign\FaviconFetcher\Facades\Favicon;

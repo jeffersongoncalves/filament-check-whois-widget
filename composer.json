@@ -1,15 +1,15 @@
 {
-    "name": "jeffersonsimaogoncalves/filament-check-whois-widget",
+    "name": "jeffersongoncalves/filament-check-whois-widget",
     "description": "This is my package filament-check-whois-widget",
     "keywords": [
-        "jeffersonsimaogoncalves",
+        "jeffersongoncalves",
         "laravel",
         "filament-check-whois-widget"
     ],
-    "homepage": "https://github.com/jeffersonsimaogoncalves/filament-check-whois-widget",
+    "homepage": "https://github.com/jeffersongoncalves/filament-check-whois-widget",
     "support": {
-        "issues": "https://github.com/jeffersonsimaogoncalves/filament-check-whois-widget/issues",
-        "source": "https://github.com/jeffersonsimaogoncalves/filament-check-whois-widget"
+        "issues": "https://github.com/jeffersongoncalves/filament-check-whois-widget/issues",
+        "source": "https://github.com/jeffersongoncalves/filament-check-whois-widget"
     },
     "license": "MIT",
     "authors": [
@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JeffersonSimaoGoncalves\\FilamentCheckWhoisWidget\\": "src/"
+            "JeffersonGoncalves\\FilamentCheckWhoisWidget\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JeffersonSimaoGoncalves\\FilamentCheckWhoisWidget\\Tests\\": "tests/"
+            "JeffersonGoncalves\\FilamentCheckWhoisWidget\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -66,11 +66,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JeffersonSimaoGoncalves\\FilamentCheckWhoisWidget\\FilamentCheckWhoisWidgetServiceProvider"
-            ],
-            "aliases": {
-                "FilamentCheckWhoisWidget": "JeffersonSimaoGoncalves\\FilamentCheckWhoisWidget\\Facades\\FilamentCheckWhoisWidget"
-            }
+                "JeffersonGoncalves\\FilamentCheckWhoisWidget\\FilamentCheckWhoisWidgetServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",

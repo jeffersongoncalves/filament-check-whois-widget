@@ -1,5 +1,5 @@
 <?php
 
-use JeffersonSimaoGoncalves\FilamentCheckWhoisWidget\Tests\TestCase;
+use JeffersonGoncalves\FilamentCheckWhoisWidget\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

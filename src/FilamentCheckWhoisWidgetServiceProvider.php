@@ -1,6 +1,6 @@
 <?php
 
-namespace JeffersonSimaoGoncalves\FilamentCheckWhoisWidget;
+namespace JeffersonGoncalves\FilamentCheckWhoisWidget;
 
 use Filament\Support\Assets\Asset;
 use Filament\Support\Facades\FilamentAsset;

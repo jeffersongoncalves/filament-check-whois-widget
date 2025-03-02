@@ -1,12 +1,9 @@
-name: "Fix PHP Code Styling"
+name: Fix PHP code style issues
 
 on:
   push:
     paths:
       - '**.php'
-
-permissions:
-  contents: write
 
 jobs:
   php-code-styling:

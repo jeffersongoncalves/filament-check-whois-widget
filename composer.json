@@ -1,6 +1,6 @@
 {
     "name": "jeffersongoncalves/filament-check-whois-widget",
-    "description": "This is my package filament-check-whois-widget",
+    "description": "The Filament Check Whois Widget is a package for the Filament PHP framework that allows you to easily check the WHOIS information for domains. It integrates seamlessly with Filament's AdminPanel, providing a clean and user-friendly interface. The widget fetches WHOIS data using an external API (requiring an API key), displaying key details like registrant information, registration date, and expiry date. Configuration options allow for customization of the widget's appearance and behavior, such as setting the number of domains displayed per row, the column span, and whether to show a title. This simplifies the process of obtaining crucial domain information within your Filament application.",
     "keywords": [
         "jeffersongoncalves",
         "laravel",

@@ -99,7 +99,7 @@ class CheckWhoisWidget extends Widget
         /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        return $plugin->getColumnSpan() ?? '1/2';
+        return $plugin->getColumnSpan();
     }
 
     public function render(): View

@@ -27,6 +27,7 @@ class CheckWhoisWidget extends Widget
     {
         $domains = [];
 
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
         if ($plugin->getDomains()) {
@@ -87,17 +88,17 @@ class CheckWhoisWidget extends Widget
 
     public static function getSort(): int
     {
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         return $plugin->getSort() ?? -1;
     }
 
     public function getColumnSpan(): int | string | array
     {
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         return $plugin->getColumnSpan() ?? '1/2';
     }
 
@@ -114,33 +115,33 @@ class CheckWhoisWidget extends Widget
 
     public function shouldShowTitle(): bool
     {
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         return $plugin->getShouldShowTitle();
     }
 
     public function title(): ?string
     {
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         return $plugin->getTitle();
     }
 
     public function description(): ?string
     {
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         return $plugin->getDescription();
     }
 
     public function quantityPerRow(): ?int
     {
+        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         $plugin = Filament::getCurrentPanel()?->getPlugin('filament-check-whois-widget');
 
-        /** @var \JeffersonGoncalves\FilamentCheckWhoisWidget\FilamentCheckWhoisWidgetPlugin $plugin */
         return $plugin->getQuantityPerRow();
     }
 }

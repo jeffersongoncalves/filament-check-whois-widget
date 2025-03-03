@@ -1,3 +1,9 @@
+<div class="filament-hidden">
+
+![Laravel Created By](https://raw.githubusercontent.com/jeffersongoncalves/filament-check-whois-widget/master/art/jeffersongoncalves-filament-check-whois-widget.png)
+
+</div>
+
 # Filament Check Whois Widget
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-check-whois-widget.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-check-whois-widget)

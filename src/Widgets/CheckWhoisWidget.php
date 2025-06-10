@@ -64,7 +64,7 @@ class CheckWhoisWidget extends Widget
         ];
     }
 
-    private function parseDate(string $date): false | Carbon
+    private function parseDate(string $date): ?Carbon
     {
         if (strlen($date) === 8) {
             return Carbon::createFromFormat('Ymd', $date);

@@ -17,6 +17,12 @@ The Filament Check Whois Widget is a package for the Filament PHP framework that
 You can install the package via composer:
 
 ```bash
+composer require jeffersongoncalves/filament-check-whois-widget:2.0.0-beta1
+```
+
+You are using Filament 3.x install the package via composer:
+
+```bash
 composer require jeffersongoncalves/filament-check-whois-widget:^1.0
 ```
 

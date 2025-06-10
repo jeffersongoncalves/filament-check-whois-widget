@@ -19,7 +19,7 @@ class CheckWhoisWidget extends Widget
 {
     protected static bool $isLazy = false;
 
-    protected static string $view = 'filament-check-whois-widget::filament.widgets.check-whois-widget';
+    protected string $view = 'filament-check-whois-widget::filament.widgets.check-whois-widget';
 
     protected array $domainWhois = [];
 
@@ -104,7 +104,7 @@ class CheckWhoisWidget extends Widget
 
     public function render(): View
     {
-        return view(static::$view, [
+        return view($this->view, [
             'domainWhois' => $this->domainWhois,
             'shouldShowTitle' => $this->shouldShowTitle(),
             'title' => $this->title(),

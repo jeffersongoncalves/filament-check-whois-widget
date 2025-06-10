@@ -11,20 +11,19 @@
         @endif
     >
         <div class="grid grid-cols-1 gap-2 md:grid-cols-{{$quantityPerRow}}">
-            @foreach ($domainWhois as $whois)
+            @foreach($domainWhois as $whois)
                 <div class="flex items-center justify-between bg-gray-100 dark:bg-gray-800/50 p-2 rounded-lg shadow-sm">
                     <span class="flex text-sm font-medium text-gray-950 dark:text-white">
-                        @if ($whois['favicon'])
+                        @if($whois['favicon'])
                             <img src="{{ $whois['favicon'] }}" style="margin-right: 6px; width: 24px;"/>
                         @endif
                         {{ $whois['domain'] }}
                     </span>
                     <span class="flex items-center text-xs text-gray-950 dark:text-white">
-                        @if ($whois['is_valid'])
+                        @if($whois['is_valid'])
                             <li>
                                 <strong>Expiration: </strong> {{ $whois['expire_date']->diffForHumans() }}
-                                (<strong
-                                    class="italic">{{ (int)abs($whois['expire_date']->diffInDays()) }} days</strong>)
+                                (<strong class="italic">{{ (int)abs($whois['expire_date']->diffInDays()) }} days</strong>)
                             </li>
                         @endif
                     </span>

@@ -13,7 +13,7 @@
 <x-filament-widgets::widget class="fi-filament-info-widget">
     <x-filament::section :icon="$icon" :heading="$title" :description="$description"
                          :iconSize="IconSize::TwoExtraLarge">
-        <div class="grid grid-cols-1 gap-2 md:grid-cols-{{$quantityPerRow}}">
+        <div class="grid grid-cols-1 gap-2 md:grid-cols-{{$quantityPerRow}} w-full">
             @foreach($domainWhois as $whois)
                 <div class="flex items-center justify-between p-2">
                     <span class="flex text-sm font-medium text-gray-950 dark:text-white">

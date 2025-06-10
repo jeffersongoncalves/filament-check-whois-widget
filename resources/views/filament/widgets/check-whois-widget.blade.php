@@ -17,18 +17,19 @@
             @foreach($domainWhois as $whois)
                 <div class="flex items-center justify-between p-2">
                     <span class="flex text-sm font-medium text-gray-950 dark:text-white">
-                        @if($whois['favicon']) <img src="{{ $whois['favicon'] }}" style="margin-right: 6px; width: 24px;" alt=""/> @endif
+                        @if($whois['favicon'])
+                            <img src="{{ $whois['favicon'] }}" style="margin-right: 6px; width: 24px;" alt=""/>
+                        @endif
                         {{ $whois['domain'] }}
                     </span>
-                    <span class="flex items-center text-xs text-gray-950 dark:text-white">
+                    <ul class="flex items-center text-xs text-gray-950 dark:text-white">
                         @if($whois['is_valid'])
                             <li>
                                 <strong>Expiration: </strong> {{ $whois['expire_date']->diffForHumans() }}
-                                (<strong
-                                    class="italic">{{ (int)abs($whois['expire_date']->diffInDays()) }} days</strong>)
+                                (<strong class="italic">{{ (int)abs($whois['expire_date']->diffInDays()) }} days</strong>)
                             </li>
                         @endif
-                    </span>
+                    </ul>
                 </div>
             @endforeach
         </div>

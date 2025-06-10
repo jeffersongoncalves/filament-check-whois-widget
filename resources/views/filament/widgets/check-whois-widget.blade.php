@@ -25,8 +25,11 @@
                     <ul class="flex items-center text-xs text-gray-950 dark:text-white">
                         @if($whois['is_valid'])
                             <li>
-                                <strong>Expiration: </strong> {{ $whois['expire_date']->diffForHumans() }}
-                                (<strong class="italic">{{ (int)abs($whois['expire_date']->diffInDays()) }} days</strong>)
+                                <strong>{{ __('filament-check-whois-widget::default.expiration') }}: </strong>
+                                {{ $whois['expire_date']->diffForHumans() }}
+                                (<strong class="italic">
+                                    {{ (int)abs($whois['expire_date']->diffInDays()) }} {{ __('filament-check-whois-widget::default.days') }}
+                                </strong>)
                             </li>
                         @endif
                     </ul>

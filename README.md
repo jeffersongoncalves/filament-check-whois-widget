@@ -20,12 +20,6 @@ You can install the package via composer:
 composer require jeffersongoncalves/filament-check-whois-widget
 ```
 
-You are using Filament 3.x install the package via composer:
-
-```bash
-composer require jeffersongoncalves/filament-check-whois-widget:^1.0
-```
-
 You can publish the config file with:
 
 ```bash

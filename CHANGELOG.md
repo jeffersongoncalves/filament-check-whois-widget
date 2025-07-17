@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.0 - 2025-07-09
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/5
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/6
+* Delete .github/FUNDING.yml by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/17
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-check-whois-widget/compare/v1.0.1...v2.0.0
+
 ## v1.0.1 - 2025-03-03
 
 ### What's Changed

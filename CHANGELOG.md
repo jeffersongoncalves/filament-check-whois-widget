@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.0.1 - 2025-08-27
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/19
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/20
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-check-whois-widget/compare/v2.0.0...v2.0.1
+
 ## v2.0.0 - 2025-07-09
 
 ### What's Changed

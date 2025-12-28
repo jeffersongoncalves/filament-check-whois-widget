@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Laravel Created By](https://raw.githubusercontent.com/jeffersongoncalves/filament-check-whois-widget/main/art/jeffersongoncalves-filament-check-whois-widget.png)
+![Filament Check Whois Widget](https://raw.githubusercontent.com/jeffersongoncalves/filament-check-whois-widget/main/art/jeffersongoncalves-filament-check-whois-widget.png)
 
 </div>
 

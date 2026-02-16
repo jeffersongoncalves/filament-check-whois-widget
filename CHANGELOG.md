@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## v3.0.0 - 2026-02-16
+
+### What's Changed
+
+* Bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/22
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-check-whois-widget/pull/26
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-check-whois-widget/compare/v2.0.1...v3.0.0
+
 ## v2.0.1 - 2025-08-27
 
 ### What's Changed

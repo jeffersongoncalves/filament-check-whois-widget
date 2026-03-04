@@ -22,7 +22,7 @@
     "require": {
         "php": "^8.1",
         "ashallendesign/favicon-fetcher": "^3.5",
-        "filament/filament": "^4.0",
+        "filament/filament": "^4.8",
         "ip2whois/ip2whois-php": "^2.2",
         "spatie/laravel-package-tools": "^1.15.0"
     },

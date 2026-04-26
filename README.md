@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Check Whois Widget](https://raw.githubusercontent.com/jeffersongoncalves/filament-check-whois-widget/1.x/art/jeffersongoncalves-filament-check-whois-widget.jpg)
+![Filament Check Whois Widget](https://raw.githubusercontent.com/jeffersongoncalves/filament-check-whois-widget/1.x/art/jeffersongoncalves-filament-check-whois-widget.png)
 
 </div>
 

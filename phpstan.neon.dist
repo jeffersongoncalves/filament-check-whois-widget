@@ -9,4 +9,10 @@ parameters:
     tmpDir: build/phpstan
     checkOctaneCompatibility: true
     checkModelProperties: false
-
+    # config/ here is the package's config, where env() belongs; Larastan only knows the app's config_path().
+    noEnvCallsOutsideOfConfig: false
+    ignoreErrors:
+        # The package's namespaced views are not registered during analysis, so Larastan cannot prove view-string.
+        -
+            identifier: property.defaultValue
+            path: src/Widgets/CheckWhoisWidget.php
